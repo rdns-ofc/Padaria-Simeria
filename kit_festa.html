@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit Festa - Padaria Siméria</title>
+    <link rel="shortcut icon" href="Imagens/logo ofc.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="Css/modal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="cabecalho" id="cabecalho">
+        <button onclick="toggleSideBar()" class="btn_menu_lateral">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <a href="Pagina_Inicial.html"><img src="Imagens/logo ofc.png" alt="Padaria do Siméria - Desde 1992" class="logo"></a>
+        <div class="menu" id="menu_lateral">
+                <button onclick="toggleSideBar()" class="btn_fecha_menuL">
+                    <i class="bi bi-x"></i>
+                </button>
+
+                
+                    <a href="sobre.html" class="link_menu">Sobre</a>
+                    <a href="padaria.html" class="link_menu">Padaria</a>
+                    <a href="confeitaria.html" class="link_menu">Confeitaria</a>
+                    <a href="cardapio.html" class="link_menu">Cardápio</a>
+                    <a href="kit_festa.html" class="link_menu">Kit Festa</a>
+    
+        </div><!-- menu -->
+    </div> <!-- cabecalho -->
+
+    <!-- conteúdo -->
+    <div class="conteudo" id="conteudo" tabindex="0" onclick="closeSideBar()">
+
+
+        <!-- Kit 5P -->
+        <div class="local_modal">
+            <button class="kit" id="openModal">Kit 5 Pessoas</button>
+            <button class="kit" id="openModal2">Kit 10 Pessoas</button>
+            <button class="kit" id="openModal3">Kit 20 Pessoas</button>
+        </div>
+            <div id="fade" class="hide"></div>
+
+            <div id="modal" class="hide">
+                <div class="modal_header">
+                    <h2 class="tt_modal">Kit 5 Pessoas</h2>
+                    <button class="closeModal">Fechar</button>
+                </div>
+
+                <div class="modal_body">
+                    <img src="Imagens/estabelecimento provisorio.jpg" alt="Imagem Kit 2" class="ft_kit">
+
+                    <p class="p_kit">
+                        1 Torta Pequena(em média 8 fatias) <br>
+                        50 Mini Salgados(frito ou assado) <br>
+                        1 Refrigerantes 2L
+                    </p>
+                    <p class="valorKit">R$99,90</p>
+                </div>
+            </div>
+            <!-- /Kit 5P -->
+
+            <!-- Kit 10P -->
+            <div id="fade2" class="hide2"></div>
+
+            <div id="modal2" class="hide2">
+                <div class="modal_header">
+                    <h2 class="tt_modal">Kit 10 Pessoas</h2>
+                    <button class="closeModal2">Fechar</button>
+                </div>
+
+                <div class="modal_body">
+                    <img src="Imagens/estabelecimento provisorio.jpg" alt="Imagem Kit 2" class="ft_kit">
+
+                    <p class="p_kit">
+                        1 Torta Média(em média 16 fatias) <br>
+                        80 Mini Salgados(frito ou assado) <br>
+                        20 Mini Hambúrguers <br>
+                        2 Refrigerantes 2L
+                    </p>
+                    <p class="valorKit">R$179,90</p>
+                </div>
+            </div>
+            <!-- /Kit 10P -->
+
+            
+
+            <!-- Kit 20P -->
+            <div id="fade3" class="hide3"></div>
+
+            <div id="modal3" class="hide3">
+                <div class="modal_header">
+                    <h2 class="tt_modal">Kit 20 Pessoas</h2>
+                    <button class="closeModal3">Fechar</button>
+                </div>
+
+                <div class="modal_body">
+                    <img src="Imagens/estabelecimento provisorio.jpg" alt="Imagem Kit 3" class="ft_kit">
+
+                    <p class="p_kit">
+                        1 Torta Grande(em média 26 fatias) <br>
+                        160 Mini Salgados(frito ou assado) <br>
+                        40 Mini Hambúrguers
+                        4 Refrigerantes 2L
+                    </p>
+                    <p class="valorKit">R$289,90</p>
+                </div>
+            </div>
+            <!-- /Kit 20P -->
+
+            <p class="prazo"><b>Observação: </b>Para a encomenda alguns de nossos kits, é necessário encomendar no mínimo com 4 (quatro) dias de antecedência.</p>
+
+
+            <div class="background-color_info_ingre">
+                <div class="info_ingrediantes">
+                    <div class="opSalgado">
+                        <h2 class="tt_info_ingre">Opções dos Salgados</h2>
+    
+                        <ul class="tabela_info_ingre">
+                            <li class="mini_salgados">Risólio de Carne</li>
+                            <li class="mini_salgados">Enroladinho de Salsicha</li>
+                            <li class="mini_salgados">Coxinha</li>
+                            <li class="mini_salgados">Quibe</li>
+                            <li class="mini_salgados">Queijo e Presunto</li>
+                            <li class="mini_salgados">Risólio de Frango</li>
+                            <li class="mini_salgados">Bolinha de Queijo</li>
+                            <li class="mini_salgados">Carne e Ovo</li>
+                            <li class="mini_salgados">Croquéte</li>
+                        </ul>
+                    </div>
+
+                    <div class="opTorta">
+                        <h2 class="tt_info_torta">Sabores Tortas</h2>
+    
+                        <ul class="tabela_info_torta">
+                            <li class="tortas">Morango</li>
+                            <li class="tortas">Amendoim</li>
+                            <li class="tortas">Coco</li>
+                            <li class="tortas">Nozes</li>
+                            <li class="tortas">Chocolate</li>
+                            <li class="tortas">Nutella</li>
+                            <li class="tortas">Limão</li>
+                            <li class="tortas">Abacaxi</li>
+                            <li class="tortas">Doice de Leite</li>
+                        </ul>
+                    </div>
+
+                    <div class="opRefri">
+                        <h2 class="tt_info_refri">Sabores de Refrigerante</h2>
+    
+                        <ul class="tabela_info_refri">
+                            <li class="refri">Coca Cola</li>
+                            <li class="refri">Guaraná Antártica</li>
+                            <li class="refri">Fanta Laranja</li>
+                            <li class="refri">Fanta Uva</li>
+                            <li class="refri">Quat</li>
+                            <li class="refri">Sprite</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+    
+            </div>
+    
+    </div><!-- conteudo -->
+
+            <!-- Soleira -->
+            <div class="soleira">
+                <div class="pt_cima">
+                    <div class="grupo_soleira_ttLg">
+                        <img src="Imagens/logo ofc.png" alt="Logo Padaria do Siméria" class="logo_soleira">
+                        <p class="tt_soleira">Padaria do Siméria</p>
+                    </div>
+                    <p class="ctt_soleira">Telefone: (24) 2231-4620</p>
+                </div>
+        
+                <p class="coracao">Do Forno para o Coração</p>
+        
+                <!-- Icones -->
+                <div class="linha_icones">
+                    <ul>
+                        <li class="icone">
+                            <a href="#" class="link_icones">
+                                <span class="icone"><i class="bi bi-whatsapp"></i></span>
+                            </a>
+                        </li>
+                        <li class="icone">            
+                            <a href="https://www.instagram.com/padariasimeria/" class="link_icones">
+                                <span class="icone"><i class="bi bi-instagram"></i></span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/PadariaSimeria" class="link_icones">
+                                <span class="icone"><i class="bi bi-facebook"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Icones -->
+        
+                <p class="direito_auto">© 2023 Padaria Siméria.</p>
+            </div>
+        
+        </div> 
+
+<script src="Js/modal.js"></script>
+<script src="Js/script.js"></script>
+</body>
+</html>

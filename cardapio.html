@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Padaria Siméria</title>
+    <link rel="shortcut icon" href="Imagens/logo ofc.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="cabecalho" id="cabecalho">
+        <button onclick="toggleSideBar()" class="btn_menu_lateral">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <a href="Pagina_Inicial.html"><img src="Imagens/logo ofc.png" alt="Padaria do Siméria - Desde 1992" class="logo"></a>
+        <div class="menu" id="menu_lateral">
+                <button onclick="toggleSideBar()" class="btn_fecha_menuL">
+                    <i class="bi bi-x"></i>
+                </button>
+
+                
+                    <a href="sobre.html" class="link_menu">Sobre</a>
+                    <a href="padaria.html" class="link_menu">Padaria</a>
+                    <a href="confeitaria.html" class="link_menu">Confeitaria</a>
+                    <a href="cardapio.html" class="link_menu">Cardápio</a>
+                    <a href="kit_festa.html" class="link_menu">Kit Festa</a>
+    
+        </div><!-- menu -->
+    </div> <!-- cabecalho -->
+
+
+    <!-- conteúdo -->
+    <div class="conteudo" id="conteudo" tabindex="0" onclick="closeSideBar()">
+
+        <div class="conteudo_cardapio">
+
+            <div class="introducao">
+                <img src="Imagens/Banner Cardapio provisorio.jpg" alt="Banner Cardápio" class="banner_cardapio">
+    
+                <div class="titulo_cardapio">
+                    Seja Bem Vindo a Nossa Área de Cardápio
+                </div>
+                <p class="descricao_cardapio">
+                    Bem-vindo ao Padaria Siméria, o lugar onde cada pedaço é uma experiência única e irresistível. 
+                    Nossa padaria, confeitaria e lanchonete oferecem uma variedade de delícias frescas e saborosas 
+                    para satisfazer todos os gostos. De pães artesanais a doces finos, cada item é cuidadosamente 
+                    preparado para garantir uma explosão de sabores em cada mordida. Aqui está uma amostra do que 
+                    oferecemos:
+                </p>    
+            </div>
+    
+            <div class="area_cardapio">
+    
+                <!-- Bebidas -->
+                <div class="area_tt_cdp">
+                    <p class="tt_cdp">Bebidas</p>
+                </div>
+    
+                <div class="produtos_cardapio">
+                    <div class="produtos">
+                        <p class="produto">Café Expresso</p>
+                        <p class="valor">R$5,00</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Café Expresso Duplo</p>
+                        <p class="valor">R$8,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Café Coador</p>
+                        <p class="valor">R$4,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Café Expresso Com Chantilly</p>
+                        <p class="valor">R$8,00</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Pingado de Coador</p>
+                        <p class="valor">R$7,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Chocolate Pequeno</p>
+                        <p class="valor">R$4,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Chocolate Médio</p>
+                        <p class="valor">R$7,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Chocolate Batido Gelado</p>
+                        <p class="valor">R$12,00</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Capuccino</p>
+                        <p class="valor">R$8,00</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Chá (diversos sabores)</p>
+                        <p class="valor">R$4,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Copo de Leite Pequeno</p>
+                        <p class="valor">R$4,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Copo de Leite Grande</p>
+                        <p class="valor">R$7,50</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Vitamina Mista</p>
+                        <p class="valor">R$13,00</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Iogurte Batido com Fruta</p>
+                        <p class="valor">R$14,00</p>
+                    </div>
+    
+                    <div class="produtos">
+                        <p class="produto">Iogurte Batido com Leite</p>
+                        <p class="valor">R$11,00</p>
+                    </div>
+                    <!-- /Bebidas -->
+    
+    
+                    <!-- Pães -->
+                    <div class="area_tt_cdp">
+                        <p class="tt_cdp">Pães</p>
+                    </div>
+        
+                    <div class="produtos_cardapio">
+                        <div class="produtos">
+                            <p class="produto">Pão Francês com Manteiga</p>
+                            <p class="valor">R$4,50</p>
+                        </div>
+        
+                        <div class="produtos">
+                            <p class="produto">Pão Francês com Manteiga na Chapa</p>
+                            <p class="valor">R$4,50</p>
+                        </div>
+        
+                        <div class="produtos">
+                            <p class="produto">Pão Francês com Requeijão</p>
+                            <p class="valor">R$6,50</p>
+                        </div>
+        
+                        <div class="produtos">
+                            <p class="produto">Pão Francês Manteiga Saida Requeijão</p>
+                            <p class="valor">R$7,00</p>
+                        </div>
+        
+                        <div class="produtos">
+                            <p class="produto">Pão Francês com Polenguinho</p>
+                            <p class="valor">R$7,00</p>
+                        </div>
+        
+                        <div class="produtos">
+                            <p class="produto">Pão com Ovo</p>
+                            <p class="valor">R$7,50</p>
+                        </div>
+                        <!-- /Pães -->
+    
+                        <!-- Salgados -->
+                        <div class="area_tt_cdp">
+                            <p class="tt_cdp">Salgados</p>
+                        </div>
+            
+                        <div class="produtos_cardapio">
+                            <div class="produtos">
+                                <p class="produto">Frito</p>
+                                <p class="valor">R$4,50</p>
+                            </div>
+            
+                            <div class="produtos">
+                                <p class="produto">Hambúguer de Forno</p>
+                                <p class="valor">R$5,00</p>
+                            </div>
+            
+                            <div class="produtos">
+                                <p class="produto">Brioche</p>
+                                <p class="valor">R$5,00</p>
+                            </div>
+            
+                            <div class="produtos">
+                                <p class="produto">Croissant</p>
+                                <p class="valor">R$4,00</p>
+                            </div>
+            
+                            <div class="produtos">
+                                <p class="produto">Pão de Queijo Grande</p>
+                                <p class="valor">R$5,00</p>
+                            </div>
+            
+                            <div class="produtos">
+                                <p class="produto">Pão de Queijo Pequeno 100g</p>
+                                <p class="valor">R$5,00</p>
+                            </div>
+                            <!-- /Salgados -->
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+
+            <!-- Soleira -->
+            <div class="soleira">
+                <div class="pt_cima">
+                    <div class="grupo_soleira_ttLg">
+                        <img src="Imagens/logo ofc.png" alt="Logo Padaria do Siméria" class="logo_soleira">
+                        <p class="tt_soleira">Padaria do Siméria</p>
+                    </div>
+                    <p class="ctt_soleira">Telefone: (24) 2231-4620</p>
+                </div>
+        
+                <p class="coracao">Do Forno para o Coração</p>
+        
+                <!-- Icones -->
+                <div class="linha_icones">
+                    <ul>
+                        <li class="icone">
+                            <a href="#" class="link_icones">
+                                <span class="icone"><i class="bi bi-whatsapp"></i></span>
+                            </a>
+                        </li>
+                        <li class="icone">            
+                            <a href="https://www.instagram.com/padariasimeria/" class="link_icones">
+                                <span class="icone"><i class="bi bi-instagram"></i></span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/PadariaSimeria" class="link_icones">
+                                <span class="icone"><i class="bi bi-facebook"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Icones -->
+        
+                <p class="direito_auto">© 2023 Padaria Siméria.</p>
+            </div>
+        
+        </div>
+
+
+
+<script src="Js/script.js"></script>
+</body>
+</html>

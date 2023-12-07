@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria - Padaria Siméria</title>
+    <link rel="shortcut icon" href="Imagens/logo ofc.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="cabecalho" id="cabecalho">
+        <button onclick="toggleSideBar()" class="btn_menu_lateral">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <a href="Pagina_Inicial.html"><img src="Imagens/logo ofc.png" alt="Padaria do Siméria - Desde 1992" class="logo"></a>
+        <div class="menu" id="menu_lateral">
+                <button onclick="toggleSideBar()" class="btn_fecha_menuL">
+                    <i class="bi bi-x"></i>
+                </button>
+
+                
+                    <a href="sobre.html" class="link_menu">Sobre</a>
+                    <a href="padaria.html" class="link_menu">Padaria</a>
+                    <a href="confeitaria.html" class="link_menu">Confeitaria</a>
+                    <a href="cardapio.html" class="link_menu">Cardápio</a>
+                    <a href="kit_festa.html" class="link_menu">Kit Festa</a>
+    
+        </div><!-- menu -->
+    </div> <!-- cabecalho -->
+
+    <!-- conteúdo -->
+    <div class="conteudo" id="conteudo" tabindex="0" onclick="closeSideBar()">
+
+        <div class="conteudo_confeitaria">
+        
+            <div class="background_confeitaria">
+                <h1 class="confeitaria_titulo">Confeitaria</h1>
+
+                <p class="desc_confeitaria">   
+                    Bem-vindo à nossa área de confeitaria, onde a arte da doçura ganha vida! 
+                    Explore um nossa confeitaria ,onde se encontra, desde bolos personalizados 
+                    até cupcakes irresistíveis.
+                </p>
+
+                <p class="desc_confeitaria">
+                    Desfrute de um ambiente aconchegante com café de alta qualidade. 
+                </p>
+
+                <p class="desc_confeitaria" id="ult_ln">
+                    Comprometemo-nos com a excelência, proporcionando experiências culinárias 
+                    extraordinárias. Visite-nos e deixe-nos adoçar sua vida!
+                </p>
+
+            </div><!-- background_confeitaria -->
+
+            <div class="div_confeitaria">
+
+                <div class="confeireiros">
+                    <img src="Imagens/Confeiteiros abilidosos.jpeg" alt="Imagem de um Profissional na área" class="img_confeireiros">
+                    <div class="div_pd">
+                        <h1 class="tt_confeiteiros">Confeiteiros Precisos</h1>
+                        <div class="p_desc_confeiteiros">                            
+                            Nosso confeiteiro é um artista culinário, criando bolos memoráveis com equilíbrio perfeito 
+                            de sabores e decorações incríveis. Sua paixão pela confeitaria resulta em experiências 
+                            gastronômicas únicas, elevando nossos doces a um nível extraordinário.
+                        </div>
+                    </div>
+                </div><!-- Confeiteiros -->
+
+                <div class="doces">
+                    <img src="Imagens/doces deliciosos.png" alt="Imagem de um item da Padaria" class="img_doces_confec">
+                    <div class="div_pd">
+                        <h1 class="tt_doces_confec">Guloseimas Lindas e Gostosas</h1>
+                        <div class="p_desc_doces_confec">
+                            A confeitaria oferece uma experiência gastronômica excepcional, destacando-se por bolos e doces 
+                            meticulosamente preparados, combinando sabores irresistíveis e apresentação visual encantadora. 
+                            Com uma variedade que atende a todos os gostos, a dedicação à qualidade, inovação e atendimento 
+                            personalizado torna cada visita uma jornada doce e memorável.
+                        </div>
+                    </div>
+                </div><!-- produtos_qualidade -->
+
+            </div><!-- div_padaria -->
+
+            <img src="Imagens/Banner confeitaria.png" alt="Banner da Panificação" class="banner_confeitaria">
+
+        </div><!-- conteudo_padaria -->
+    
+    </div><!-- conteudo -->
+
+            <!-- Soleira -->
+            <div class="soleira">
+                <div class="pt_cima">
+                    <div class="grupo_soleira_ttLg">
+                        <img src="Imagens/logo ofc.png" alt="Logo Padaria do Siméria" class="logo_soleira">
+                        <p class="tt_soleira">Padaria do Siméria</p>
+                    </div>
+                    <p class="ctt_soleira">Telefone: (24) 2231-4620</p>
+                </div>
+        
+                <p class="coracao">Do Forno para o Coração</p>
+        
+                <!-- Icones -->
+                <div class="linha_icones">
+                    <ul>
+                        <li class="icone">
+                            <a href="#" class="link_icones">
+                                <span class="icone"><i class="bi bi-whatsapp"></i></span>
+                            </a>
+                        </li>
+                        <li class="icone">            
+                            <a href="https://www.instagram.com/padariasimeria/" class="link_icones">
+                                <span class="icone"><i class="bi bi-instagram"></i></span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/PadariaSimeria" class="link_icones">
+                                <span class="icone"><i class="bi bi-facebook"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Icones -->
+        
+                <p class="direito_auto">© 2023 Padaria Siméria.</p>
+            </div>
+        
+        </div>
+
+    
+<script src="Js/script.js"></script>
+</body>
+</html>

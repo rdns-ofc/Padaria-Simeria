@@ -1,0 +1,942 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+:root
+{
+    --color-cabecalho: #851313;
+    --color-secundaria: #ffb900;
+    --color-sombra: #1c1c1c;
+    --color-letraTt: #3b3b3b;
+    --color-background-pg: #e2e2e2;
+    --color-confeitaria: #47210D;
+    --color-black: #000000;
+    --color-mini_soleira: #a8a8a8;
+    --color-fundo-cdp: #fdfdfd;
+    --background_padaria: rgb(205, 131, 52);
+    --confeitaria: #a6465a;
+    --obs: #dd1515;
+    --kit_festa: #ff8800;
+}
+
+body
+{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color-cabecalho);
+    height: 5em;
+    justify-content: space-between;
+    padding: 0 10%;
+    width: auto;
+    box-shadow: 1px 1px 4px var(--color-sombra);
+
+}
+
+.menu
+{
+    gap: 3em;
+    z-index: 2;
+}
+
+.logo
+{
+    width: 130px;
+}
+
+.link_menu
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.link_menu:hover
+{
+    font-size: 18px;
+}
+
+.conteudoImprov
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner_pg
+{
+    width: 100%;
+    margin-top: 1px;
+}
+
+.resumo
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.estabelecimento
+{
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid var(--color-cabecalho);
+}
+
+.apresentacao_estabelecimento
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid var(--color-cabecalho);
+}
+
+.tt
+{
+    margin-top: 50px;
+    margin-left: 35px;
+    color: var(--color-cabecalho);
+}
+
+.descricao_resumo
+{
+    margin-top: 10px;
+    margin-left: 35px;
+    color: var(--color-letraTt);
+    font-size: large;
+}
+
+.sobre_pg
+{
+    width: 100%;
+    margin-top: 3em;
+    border: 3px solid var(--color-cabecalho);
+    background-color: var(--color-background-pg);   
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_pg
+{
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.div_pg
+{
+    align-items: center;
+}
+
+.h1_pg
+{
+    color: var(--color-cabecalho);
+    margin-left: 20px;
+}
+
+.p_pg
+{
+    font-size: larger;
+    color: var(--color-letraTt);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.bt_pg
+{
+    font-size: 18px;
+    color: var(--color-cabecalho);
+    text-decoration: none;
+    border: 2px solid var(--color-cabecalho);
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+#saiba
+{
+    margin-left: 40%;
+}
+
+#ir
+{
+    margin-left: 40%;
+}
+
+.bt_pg:hover
+{
+    background-color: var(--color-cabecalho);
+    color: var(--color-secundaria);
+}
+
+.img_pg#cardapio
+{
+    height: 300px;
+}
+
+.div_pd_conf
+{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* background-color: var(--color-background-pg); */
+}
+
+.padara, .confec
+{
+    width: 38%;
+    height: 730px;
+    background-color: var(--color-background-pg);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px var(--color-sombra);
+    align-items: center;
+}
+
+.img_pad,.img_confec
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h1_pad, .h1_confec
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.h1_pad
+{
+    color: var(--color-secundaria);
+}
+
+.h1_confec
+{
+    color: var(--color-confeitaria);
+}
+
+.p_pad, .p_confec
+{
+    text-align: center;
+    font-size: larger;
+    color: var(--color-letraTt);
+    /* width: 400px; */
+    margin-bottom: 30px;
+}
+
+#conhecer_mais
+{
+    text-align: center;
+    margin-left: 40%;
+}
+
+#conhecer_mais1
+{
+    text-align: center;
+    margin-left: 40%;
+}
+
+#h1_cardapio
+{
+    margin-left: 50px;
+}
+
+/*Página sobre*/
+
+.conteudo_sobre
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primeiro_bloco
+{
+    background-color: var(--color-secundaria);
+}
+
+.titulo1_pg_sobre
+{
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.p_sobre
+{
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    color: var(--color-letraTt);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#ultimo_p_sobre
+{
+    padding-bottom: 50px;
+}
+
+/* Página Kit Festa */
+
+.conteudo_kitFesta
+{
+    width: 100%;
+}
+
+.catalogo_kitFesta
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 4px var(--color-sombra);
+    border-radius: 10px;
+    margin-top: 2em;
+    align-items: center;
+}
+
+.linha1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linha2
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.kit
+{
+    box-shadow: 1px 1px 4px var(--color-sombra);
+    border-radius: 10px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.ft_kit
+{
+    width: 96%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.separacao_kit0
+{
+    align-items: center;
+}
+
+.separacao_kit
+{
+    align-items: center;
+}
+
+.p_tt_kit
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--color-black);
+    padding: 10px;
+}
+
+.p_kit
+{
+    margin-top: -10px;
+    padding: 10px;
+    color: var(--color-letraTt);
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.valorKit
+{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--color-cabecalho);
+}
+
+.prazo
+{
+    font-size: medium;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.prazo b
+{
+    color: var(--obs);
+}
+
+.background-color_info_ingre
+{
+    background-color: var(--kit_festa);
+    margin-top: 20px;
+}
+
+.info_ingrediantes
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.tt_info_ingre, .tt_info_torta, .tt_info_refri
+{
+    margin-bottom: 10px; 
+}.tt_info_ingre{
+     color: var(--color-cabecalho);
+}.tt_info_torta{
+    color: var(--color-fundo-cdp);
+}.tt_info_refri{
+    color: var(--color-confeitaria);
+}
+
+.mini_salgados, .tortas, .refri
+{
+    padding: 1px;
+}.mini_salgados{
+    color: var(--color-cabecalho);
+}.tortas{
+    color: var(--color-fundo-cdp);
+}.refri{
+    color: var(--color-confeitaria); 
+}
+
+.banner_kit_festa
+{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Cardápio */
+
+.banner_cardapio
+{
+    width: 100%;
+    height: auto;
+}
+
+.titulo_cardapio
+{
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.descricao_cardapio
+{
+    width: 60%;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bebidas Cardapio */
+
+.area_cardapio
+{
+    width: 60%;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.area_tt_cdp
+{
+    background-color: var(--color-secundaria);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.tt_cdp
+{
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.produtos
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid var(--color-mini_soleira);
+    background-color: var(--color-fundo-cdp);
+    border-radius: 5px;
+}
+
+.valor
+{
+    text-align:left;
+    margin-right: 20px;
+}
+
+/* Confeitaria */
+
+.background_confeitaria
+{
+    background-color: var(--confeitaria);
+    width: 100%;
+}
+
+.confeitaria_titulo
+{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.desc_confeitaria
+{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    font-size: 20px;
+    color: var(--color-fundo-cdp);
+    font-weight: lighter;
+}
+
+#ult_ln
+{
+    padding-bottom: 20px;
+}
+
+.div_confeitaria
+{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+}
+
+.confeireiros, .doces
+{
+    display: flex;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+.confeireiros
+{
+    border: 3px solid var(--confeitaria);
+}
+
+.doces
+{
+    border: 3px solid var(--color-cabecalho);
+}
+
+.img_confeireiros, .img_doces_confec
+{
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.tt_confeiteiros, .tt_doces_confec
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.tt_doces_confec
+{
+    color: var(--color-cabecalho);
+}
+
+.tt_confeiteiros
+{
+    color: var(--confeitaria);
+}
+
+.p_desc_confeiteiros, .p_desc_doces_confec
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+.banner_confeitaria
+{
+    width: 100%;
+    height: auto;
+}
+
+/* Padaria */
+
+.background_padaria
+{
+    background-color: var(--background_padaria);
+    width: 100%;
+}
+
+.padaria_titulo
+{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.desc_padaria
+{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    font-size: 20px;
+    color: var(--color-black);
+    font-weight: lighter;
+}
+
+#ult_ln
+{
+    padding-bottom: 20px;
+}
+
+.div_padaria
+{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+}
+
+.profissionais, .produtos_qualidade
+{
+    display: flex;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+.profissionais
+{
+    border: 3px solid var(--color-confeitaria);
+}
+
+.produtos_qualidade
+{
+    border: 3px solid var(--color-secundaria);
+}
+
+.img_profissionais, .img_produto_qldd
+{
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tt_profissi_pad, .tt_produ_pad
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.tt_profissi_pad
+{
+    color: black;
+}
+
+.tt_produ_pad
+{
+    color: var(--background_padaria);
+}
+
+.p_desc_profissi_pad, .p_desc_produ_pad
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+.banner_padaria
+{
+    width: 100%;
+    height: auto;
+}
+
+/* Soleira */
+
+.soleira
+{
+    background-color: var(--color-confeitaria);
+    height: auto;
+    width: 100%;
+}
+
+.pt_cima
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.grupo_soleira_ttLg
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo_soleira
+{
+    width: 80px;
+}
+
+.tt_soleira
+{
+    color: var(--color-secundaria);
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.ctt_soleira
+{
+    color: var(--color-secundaria);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.coracao
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color-secundaria);
+}
+
+.linha_icones
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link_icones
+{
+    text-decoration: none;
+    color: var(--color-secundaria);
+    padding: 5px;
+}
+
+.icone
+{
+    margin: 15px;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.direito_auto
+{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Menu Lateral */
+
+.btn_menu_lateral, .btn_fecha_menuL
+{
+    display: none;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: var(--color-secundaria);
+    cursor: pointer;
+}
+
+/* Config tamanhos de Telas */
+
+@media screen and (max-width: 966px) 
+{
+    .btn_menu_lateral, .btn_fecha_menuL
+    {
+        display: block;
+        align-items: center;
+    }
+
+    .btn_fecha_menuL
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu
+    {
+        display: block;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-confeitaria);
+        height: 100%;
+        width: 20vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+        align-items: center;
+        margin-left: -100vw;
+    }
+
+    .separacao_menu_lateral
+    {
+        display: block;
+    }
+
+    .link_menu
+    {
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resumo, .sobre_pg
+    {
+        display: inline-block;
+        height: 600px;
+    }
+
+    #conhecer_mais, #conhecer_mais1
+    {
+        margin-left: 0;
+    }
+
+    .h1_pad, .h1_confec
+    {
+        margin-left: 0;
+    }
+
+    #nss_cdp
+    {
+        height: 720px;
+    }
+
+    .img_pg
+    {
+        width: 96%;
+    }
+
+    .padara, .confec
+    {
+        margin-right: 20px;
+        height: 830px;
+    }
+
+    .bt_pg
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Padaria & Confeitaria */
+
+    .profissionais, .produtos_qualidade, .confeireiros, .doces
+    {
+        display: block;
+    }
+
+    .img_profissionais, .img_produto_qldd, .img_confeireiros, .img_doces_confec
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    .tt_profissi_pad, .tt_produ_pad, .tt_confeiteiros, .tt_doces_confec
+    {
+        font-size: 20px;
+    }
+
+    .p_desc_profissi_pad, .p_desc_produ_pad, .p_desc_confeiteiros, .p_desc_doces_confec
+    {
+        font-size: 15px;
+    }
+
+    /* Kit Festa */
+
+    .info_ingrediantes
+    {
+        display: block;
+        text-align: center;
+    }
+
+    .mini_salgados, .tortas, .refri
+    {
+        list-style: none
+    }
+
+    .kit
+    {
+        margin-left: 0px;
+        font-size: 10px;
+        display: block;
+    }
+}
+
+@keyframes showSideBar 
+{
+    from{margin-left: -100vw;}
+    top{margin-left: -10vw;}
+}
+
+/* Barra de rolagem */
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: var(--color-cabecalho);
+}

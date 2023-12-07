@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria do Siméria</title>
+    <link rel="shortcut icon" href="Imagens/logo ofc.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="Css/map.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="cabecalho" id="cabecalho">
+        <button onclick="toggleSideBar()" class="btn_menu_lateral">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <a href="Pagina_Inicial.html"><img src="Imagens/logo ofc.png" alt="Padaria do Siméria - Desde 1992" class="logo"></a>
+        <div class="menu" id="menu_lateral">
+                <button onclick="toggleSideBar()" class="btn_fecha_menuL">
+                    <i class="bi bi-x"></i>
+                </button>
+
+                <div class="separacao_menu_lateral">
+                    <a href="sobre.html" class="link_menu">Sobre</a>
+                    <a href="padaria.html" class="link_menu">Padaria</a>
+                    <a href="confeitaria.html" class="link_menu">Confeitaria</a>
+                    <a href="cardapio.html" class="link_menu">Cardápio</a>
+                    <a href="kit_festa.html" class="link_menu">Kit Festa</a>
+                </div>
+
+    
+        </div><!-- menu -->
+    </div> <!-- cabecalho -->
+
+
+    <!-- conteúdo -->
+    <div class="conteudo" id="conteudo" tabindex="0" onclick="closeSideBar()">
+
+        <img src="Imagens/CONHEÇA NOSSA LOJA!!.jpg" alt="Banner" class="banner_pg"> <!-- Tem que colocar a imagem -->
+
+        <div class="conteudoImprov">
+    
+            <!-- Resumo -->
+        <figure class="resumo">
+            <img src="Imagens/estabelecimento provisorio.jpg" alt="Estabeledimento Padaria do Siméria" class="estabelecimento">
+    
+            <figcaption>
+                <h1 class="tt">Padaria do Siméria</h1>
+                <p class="descricao_resumo">
+                    Somos uma padaria, confeitaria e lanchonete. Aqui você podera esperimentar muitas delícias. Venha nos conhecer!
+                </p><!-- tt -->
+            </figcaption>
+        </figure><!-- resumo -->
+        </div><!-- conteudoImprov -->
+    
+    
+        <img src="Imagens/diversas opp.jpg" alt="Banner" class="banner_pg" id="seg"> <!-- Tem que colocar a imagem -->
+    
+    
+        <div class="conteudoImprov">
+    
+            <!-- Sobre -->
+        <div class="sobre_pg">
+            <img src="Imagens/estabelecimento provisorio.jpg" alt="Imagem sobre" class="img_pg">
+            <div class="div_pg">
+                <h1 class="h1_pg">Sobre a Padaria Siméria</h1>
+                <p class="p_pg">Aqui você encontrará muitas coisas deliciosas, desde pães, bolos, tortas, sanduiches, salgados, e muitas outras maravilhas.</p>
+                <a href="sobre.html" class="bt_pg" id="saiba">Saiba mais</a>    
+            </div>
+        </div>
+        <!-- /Sobre -->
+    
+    
+        
+        <div class="div_pd_conf">
+            <!-- Padaria -->
+            <div class="padara">
+                <img src="Imagens/Img para padaria.jpg" alt="Imagem de itens da Padaria" class="img_pad">
+                <h1 class="h1_pad">Padaria</h1>
+                <p class="p_pad">Em nossa padaria, a jornada começa antes mesmo de você cruzar a porta. O cheirinho acolhedor e sedutor que permeia o 
+                    ar é um convite à aventura culinária. Pães frescos, saídos do forno e cuidadosamente preparados com ingredientes de qualidade, 
+                    esperam ansiosamente por você.
+                </p>
+                <a href="padaria.html" class="bt_pg" id="conhecer_mais">Conhecer</a>
+            </div>
+            <!-- Padaria -->
+    
+            <!-- Confeitaria -->
+            <div class="confec">
+                <img src="Imagens/img para confeitaria.jpg" alt="Imagem de itens da Confeitaria" class="img_confec">
+                <h1 class="h1_confec">Confeitaria</h1>
+                <p class="p_confec">
+                    Ao entrar em nosso estabelecimento, você será imediatamente envolvido por um aroma encantador que o transportará para um 
+                    universo de indulgência. Doces, bolos e sobremesas frescas, criados com um toque de paixão e dedicação, esperam ansiosamente para 
+                    deliciar seu paladar.
+                </p>
+                <a href="confeitaria.html" class="bt_pg" id="conhecer_mais1">Conhecer</a>
+            </div>
+            <!-- /Confeitaria -->
+        </div>
+
+        <!-- Google Maps -->
+        <div class="mapBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.1853494481375!2d-43.19917315812191!3d-22.534728546596508!2m3!1f0!2
+            f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99084b75396ce7%3A0x1698671de811f25f!2sPadaria%20Sim%C3%A9ria!5e0!3m2!1spt-BR!2sbr!4v17011910395
+            16!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgra
+            de"></iframe>
+        </div>
+        <!-- /Google Maps -->
+    
+    
+        <!-- Nosso Cardápio -->
+        <div class="sobre_pg" id="nss_cdp">
+            <img src="Imagens/Croissant Salgado.jpg" alt="Cardápio" class="img_pg" id="cardapio">
+            <div class="div_pg" id="cardapio">
+                <h1 class="h1_pg" id="h1_cardapio">Nosso Cardápio</h1>
+                <p class="p_pg">Em nosso cardápio, você encontrará uma riqueza de opções cuidadosamente elaboradas para satisfazer até os paladares 
+                    mais exigentes. Seja para um lanche rápido, um almoço delicioso, ou uma sobremesa especial, temos algo para todos os momentos do 
+                    seu dia.
+                </p>
+                <a href="cardapio.html" class="bt_pg" id="ir">Ir ver</a>
+            </div>
+        </div><!-- Nosso Cardápio -->
+    
+        </div><!-- conteudoImprov -->
+    
+        <a href="kit_festa.html"><img src="Imagens/Banner Kit Festa.jpg" alt="Banner Kit Festa" class="banner_kit_festa"></a>
+    
+        <div class="conteudo">
+            
+        </div><!-- conteudoImprov -->
+    
+        <!-- /Sobre -->
+    
+    
+        <!-- Soleira -->
+        <div class="soleira">
+            <div class="pt_cima">
+                <div class="grupo_soleira_ttLg">
+                    <img src="Imagens/logo ofc.png" alt="Logo Padaria do Siméria" class="logo_soleira">
+                    <p class="tt_soleira">Padaria do Siméria</p>
+                </div>
+                <p class="ctt_soleira">Telefone: (24) 2231-4620</p>
+            </div>
+    
+            <p class="coracao">Do Forno para o Coração</p>
+    
+            <!-- Icones -->
+            <div class="linha_icones">
+                <ul>
+                    <li class="icone">
+                        <a href="#" class="link_icones">
+                            <span class="icone"><i class="bi bi-whatsapp"></i></span>
+                        </a>
+                    </li>
+                    <li class="icone">            
+                        <a href="https://www.instagram.com/padariasimeria/" class="link_icones">
+                            <span class="icone"><i class="bi bi-instagram"></i></span>
+                        </a>
+                    </li>
+                    <li class="icone">
+                        <a href="https://www.facebook.com/PadariaSimeria" class="link_icones">
+                            <span class="icone"><i class="bi bi-facebook"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Icones -->
+    
+            <p class="direito_auto">© 2023 Padaria Siméria.</p>
+        </div><!-- soleira -->
+    </div>
+
+<script src="Js/script.js"></script>
+</body>
+</html>
